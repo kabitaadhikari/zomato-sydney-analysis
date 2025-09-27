@@ -1,0 +1,9 @@
+stages:
+  run_all:
+    cmd: jupyter nbconvert --to notebook --execute "Final_all.ipynb" --output "outputs/Final_all_executed.ipynb"
+    deps:
+      - Final_all.ipynb
+      - zomato_df_final_data.csv
+      - sydney.geojson
+    outs:
+      - outputs/Final_all_executed.ipynb
