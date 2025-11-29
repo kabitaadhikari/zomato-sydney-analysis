@@ -1,6 +1,4 @@
-# Git_Project
-README – Assignment_DataScience_1
-Project Overview
+#Project Overview
 This repository demonstrates a reproducible Data Science workflow using Git, Git LFS, DVC, and
 Jupyter/nbconvert. It ensures that datasets, models, and results can be versioned, tracked, and
 reproduced end-to-end with a single command.
